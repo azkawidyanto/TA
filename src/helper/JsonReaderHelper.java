@@ -13,19 +13,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class JsonReaderHelper {
-    public static HashMap<Integer, String> readPredicateDictionary(String filename) {
-        HashMap<Integer, String> predicateDictionary = new HashMap<>();
-        Gson gson = new Gson();
-        File file = Paths.get(filename).toFile();
+    public static HashMap<Integer, String> readPredicateDictionary(final String filename) {
+        final HashMap<Integer, String> predicateDictionary = new HashMap<>();
+        final Gson gson = new Gson();
+        final File file = Paths.get(filename).toFile();
 
         try {
-            JsonObject jsonObject = gson.fromJson(new FileReader(file), JsonObject.class);
+            final JsonObject jsonObject = gson.fromJson(new FileReader(file), JsonObject.class);
 
-            for (Map.Entry<String, JsonElement> entry: jsonObject.entrySet()) {
+            for (final Map.Entry<String, JsonElement> entry: jsonObject.entrySet()) {
                 predicateDictionary.put(entry.getValue().getAsInt(), entry.getKey());
             }
 
-        } catch(FileNotFoundException f) {
+        } catch(final FileNotFoundException f) {
             System.out.println(f.toString());
         }
 
