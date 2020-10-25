@@ -1,0 +1,8 @@
+﻿ncall,tottime,percall,cumtime,percall2,Function
+34,0,0,0,0,merge
+9,0,0,0,0,binary_search
+6,0,0,0,0,insertion_sort
+1,0,0,0,0,decode
+1,0,0,0,0,tim_sort
+1,0.156,0.156,0.157,0.157,main
+1,0,0,0.157,0.157,<module>

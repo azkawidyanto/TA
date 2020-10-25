@@ -1,0 +1,8 @@
+﻿ncall,tottime,percall,cumtime,percall2,Function
+1,0,0,0,0,decode
+2,0.018,0,0.018,0,lin_search
+1,0,0,0,0,ite_ternary_search
+1,0,0,0,0,__assert_sorted
+1,0,0,0,0,rec_ternary_search
+1,0.001,0.001,0.001,0.001,<listcomp>
+1,5.788,5.788,5.788,5.788,<module>

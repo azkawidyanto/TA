@@ -1,0 +1,7 @@
+﻿ncall,tottime,percall,cumtime,percall2,Function
+1,0,0,0,0,decode
+15720,0.084,0,0.084,0,isSafe
+1,0,0,0,0,<listcomp>
+92,0.022,0,0.022,0,printboard
+1,0,0,0.118,0.118,<module>
+2057/1,0.012,0,0.118,0.118,solve

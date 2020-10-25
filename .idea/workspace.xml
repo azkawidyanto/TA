@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64fce719-45c1-4d94-ad69-9c3fe394db11" name="Default Changelist" comment="" />
+    <list default="true" id="64fce719-45c1-4d94-ad69-9c3fe394db11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,8 +27,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/gson-2.6.2.jar" />
     <property name="scala_project_settings_configurable.last_selected_tab_index" value="0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JarApplication" nameIsGenerated="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/gson-2.6.2.jar" />
+      <option name="WORKING_DIRECTORY" value="F:\TA\TA" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ScalaProjectSettings">
     <option name="intInjectionMapping">
@@ -48,13 +60,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="137" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585749744255">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="137" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1366.738@0.30.1366.738" timestamp="1585749744255" />
+    <state x="463" y="154" key="FileChooserDialogImpl" timestamp="1585749738857">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="463" y="154" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1585749738857" />
+    <state width="886" height="182" key="GridCell.Tab.0.bottom" timestamp="1585751520606">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="886" height="182" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1585751520606" />
+    <state width="886" height="182" key="GridCell.Tab.0.center" timestamp="1585751520606">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="886" height="182" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1585751520606" />
+    <state width="886" height="182" key="GridCell.Tab.0.left" timestamp="1585751520605">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="886" height="182" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1585751520605" />
+    <state width="886" height="182" key="GridCell.Tab.0.right" timestamp="1585751520606">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="886" height="182" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1585751520606" />
     <state x="184" y="41" key="SettingsEditor" timestamp="1585748147322">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="184" y="41" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1585748147321" />
-    <state x="379" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1585749355809">
+    <state x="379" y="223" key="com.intellij.ide.util.TipDialog" timestamp="1585749545561">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="379" y="223" key="com.intellij.ide.util.TipDialog/0.30.1366.738@0.30.1366.738" timestamp="1585749355809" />
+    <state x="379" y="223" key="com.intellij.ide.util.TipDialog/0.30.1366.738@0.30.1366.738" timestamp="1585749545561" />
   </component>
 </project>

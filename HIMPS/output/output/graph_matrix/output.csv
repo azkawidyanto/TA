@@ -1,0 +1,8 @@
+﻿ncall,tottime,percall,cumtime,percall2,Function
+1,0,0,0,0,decode
+1,0,0,0,0,<listcomp>
+1,0,0,0,0,__init__
+5,0,0,0,0,add_edge
+1,0.020,0.020,0.020,0.020,show
+1,0,0,0,0,Graph
+1,0,0,0.020,0.020,<module>

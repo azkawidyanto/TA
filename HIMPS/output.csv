@@ -1,0 +1,8 @@
+   ncalls,tottime,percall,cumtime,percall,function
+ ,,,,,
+        1    0.000    0.000    0.000    0.000 cp1252.py:22(decode),,,,,
+        6    0.000    0.000    0.000    0.000 <string>:16(insertion_sort),,,,,
+       34    0.000    0.000    0.000    0.000 <string>:27(merge),,,,,
+        1    0.000    0.000    0.000    0.000 <string>:40(tim_sort),,,,,
+        1    0.001    0.001    0.001    0.001 <string>:75(main),,,,,
+        1    0.000    0.000    0.001    0.001 <string>:1(<module>),,,,,

@@ -1,0 +1,9 @@
+﻿ncall,tottime,percall,cumtime,percall2,Function
+1,0,0,0,0,decode
+6768,0.018,0,0.018,0,is_safe
+3958,0.007,0,0.011,0,<genexpr>
+774,0.002,0,0.013,0,is_completed
+773,0.007,0,0.007,0,find_empty_location
+774/2,0.004,0,0.042,0,sudoku
+1,0,0,0,0,print_solution
+1,0,0,0.043,0.043,<module>

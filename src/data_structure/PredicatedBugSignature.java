@@ -19,7 +19,7 @@ public class PredicatedBugSignature {
     public void addBugSignatureToDSPairs(ConditionalDatabase fullDatabase) {
         bugSignatureDSPairs = new ArrayList<>();
         Support fullDatabaseSupport = fullDatabase.countTotalSupport();
-
+ 
         for (ArrayList<Integer> transaction: bugSignature.keySet()) {
             Support transactionSupport = SupportCounter.getSuppotOfTransaction(transaction, fullDatabase);
             Double ds = MathHelper.discriminativeSignificance(
@@ -66,3 +66,4 @@ public class PredicatedBugSignature {
         bugSignatureDSPairs = newBugSignatureDSPairs;
     }
 }
+ 

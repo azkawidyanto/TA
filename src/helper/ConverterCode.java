@@ -15,7 +15,7 @@ public class ConverterCode {
             if (splitedString.length == 1) {
                 Integer stringIntegerValue = Integer.valueOf(splitedString[0]);
                 Support support = new Support(stringIntegerValue);
-                dataClasses.add(support);
+                dataClasses.add(support); 
             } else {
                 ArrayList<Predicate> arrPredicate = new ArrayList<>();
                 for (int i = 0; i < splitedString.length - 1; i++) {

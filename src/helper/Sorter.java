@@ -12,7 +12,7 @@ public class Sorter {
             @Override
             public int compare(Predicate o1, Predicate o2) {
                 return ((o2.plusSupport + o2.negativeSupport) - (o1.plusSupport + o1.negativeSupport) );
-            }
+            }`
         });
         return copyPredicateArray;
     }
@@ -23,5 +23,5 @@ public class Sorter {
             sortedDatabase.add(Sorter.sortArrayBySupport(arr));
         }
         return sortedDatabase;
-    }
+    } 
 }

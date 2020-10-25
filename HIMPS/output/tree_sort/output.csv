@@ -1,0 +1,8 @@
+﻿ncall,tottime,percall,cumtime,percall2,Function
+1,0,0,0,0,decode
+7,0,0,0,0,__init__
+1,0,0,0,0,node
+12/6,0,0,0,0,insert
+15/1,0,0,0,0,inorder
+1,0,0,0,0,tree_sort
+1,0,0,0,0,<module>
