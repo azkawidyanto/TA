@@ -8,16 +8,6 @@ import numpy as np
 from pstats import SortKey
 import psutil
 # import resource
-
-file = input('Masukkan Nama File: ')
-k = int(input("Masukkan K yang diinginkan:"))
-start = time.time()
-data = pd.read_csv(file)
-df = pd.DataFrame(
-    data, columns=["ncall", "Function", "Support_plus", "Support_neg", "IG", "DS"])
-pd.set_option('mode.chained_assignment', None)
-
-
 def support(df):
     for i in range(0, len(df.ncall)):
         if df.ncall[i] == 1:
@@ -76,21 +66,30 @@ def topK_signature(df, k):
 #         b = df.Support_plus[i] / abs(pos_transac(df))
 #         if (df.Support_neg[i] == 0) or (df.Support_plus[i] == 0):
 #             df.DS[i] = 0
-#         else:
+#         else: v
 #              if (a > b):
 #                 df.DS[i] = information_gain(df)
 #                 df.DS[i] = 0
 
+def main_func():
+    file = input('Masukkan Nama File: ')
+    k = int(input("Masukkan K yang diinginkan:"))
+    start = time.time()
+    data = pd.read_csv(file)
+    df = pd.DataFrame(
+        data, columns=["ncall", "Function", "Support_plus", "Support_neg", "IG", "DS"])
+    pd.set_option('mode.chained_assignment', None)
+    support(df)
+    information_gain(df)
+    disc_Significance(df)
+    topK_signature(df, k)
+
+    df = pd.DataFrame(df, columns=["Function", "DS"])
+    duration = time.time() - start
+    print(df)
+    print("Waktu yang dibutuhkan:", duration)
+    print("Memori yang digunakan:", psutil.virtual_memory())
+    # print("Memori yang digunakan:",resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
 
 
-support(df)
-information_gain(df)
-disc_Significance(df)
-topK_signature(df, k)
-
-df = pd.DataFrame(df, columns=["Function", "DS"])
-time = time.time() - start
-print(df)
-print("Waktu yang dibutuhkan:", time)
-print("Memori yang digunakan:", psutil.virtual_memory())
-# print("Memori yang digunakan:",resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
+main_func()

@@ -7,7 +7,7 @@ file = input('Masukkan Nama File: ')
 f = open(file, 'r')
 
 pr = cProfile.Profile(builtins=False)
-pr.enable()
+pr.enable() 
 exec(f.read())
 pr.disable()
 s = io.StringIO()
@@ -31,3 +31,4 @@ with open("output.csv", "w") as f:
 
 # To read only one line
 # print(f.readline())
+
